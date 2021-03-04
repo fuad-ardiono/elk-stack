@@ -10,3 +10,9 @@ xpack.monitoring.elasticsearch.hosts: [ "http://elasticsearch:9200" ]
 xpack.monitoring.enabled: true
 xpack.monitoring.elasticsearch.username: elastic
 xpack.monitoring.elasticsearch.password: changeme
+
+## Dead letter queue
+dead_letter_queue.enable: true
+dead_letter_queue.flush_interval: 3600000
+
+path.dead_letter_queue: "dlq"
