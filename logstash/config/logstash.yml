@@ -14,5 +14,4 @@ xpack.monitoring.elasticsearch.password: changeme
 ## Dead letter queue
 dead_letter_queue.enable: true
 dead_letter_queue.flush_interval: 3600000
-
 path.dead_letter_queue: "dlq"
